@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt - Decrypt</title>
+</head>
+<style>
+    .container-mid {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .heading {
+        text-align: center;
+        margin: 50px 0 0 0;
+    }
+    .working_area {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 5px 8px;
+        cursor: pointer;
+    }
+
+    label,
+    input,
+    button {
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .encrypt {
+        resize: none;
+    }
+    .mg-top {
+        margin: 15px 0 0 0;
+    }
+</style>
+
+<body>
+    <h2 class="heading">Ahmad's Encryption - Decryption method</h2>
+    <div class="container-mid">
+        <div class="working_area">
+            <label for="encrypt">Enter value to encrypt</label>
+            <input type="text" id="encrypt" class="encrypt">
+            <button id="encrypt_btn" onclick="encrypt()">Encrypt</button>
+
+            <div class="encrypt_results_title"><b>Excrypted value:</b></div>
+            <div class="encrypt_results" id="encrypt_results"></div>
+        </div>
+
+        <div class="working_area mg-top">
+            <label for="decrypt">Enter encrypted value</label>
+            <input type="text" id="decrypt" class="decrypt">
+            <button id="decrypt_btn" onclick="decrypt()">Decrypt</button>
+
+            <div class="decrypt_results_title"><b>Decrypted value:</b></div>
+            <div class="decrypt_results" id="decrypt_results"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
