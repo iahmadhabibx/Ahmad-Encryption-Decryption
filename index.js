@@ -1,3 +1,12 @@
+/*
+
+##########-Ahamad Encryption Decryption-##########
+- A encryption decryption method that works on all key length.
+- Best to produce secret messages or passwords.
+- Copyright protected by Ahmad Habib™
+
+*/
+
 let encrypt_value = document.getElementById("encrypt");
 let encrypt_result = document.getElementById("encrypt_results");
 

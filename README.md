@@ -1,4 +1,4 @@
-# ahmadEncryptionDecryption
+# ahmadEncryptionDecryption v1.0.0
 
 ### This method works on 7 length base e-n-c-r-y-p-t, d-e-c-r-y-p-t which makes 7 in length ###
 
