@@ -1,6 +1,6 @@
 # ahmadEncryptionDecryption v1.0.0
 
-### This method works on 7 length base e-n-c-r-y-p-t, d-e-c-r-y-p-t which makes 7 in length ###
+### This method works on 7 length base <strong>e-n-c-r-y-p-t</strong>, <strong>d-e-c-r-y-p-t</strong> which makes <strong>7</strong> in length ###
 
 ENCRYPTION STEPS<br/>
 1 - Generates 7 length random alphanumeric string and add on start<br/>
